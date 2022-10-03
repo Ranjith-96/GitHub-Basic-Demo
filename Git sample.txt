@@ -1,0 +1,109 @@
+Microsoft Windows [Version 10.0.19044.1865]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Akshitha>d:
+
+D:\>cd D:\SOAP AND REST WORKSPACE
+
+D:\SOAP AND REST WORKSPACE>git init
+Initialized empty Git repository in D:/SOAP AND REST WORKSPACE/.git/
+
+D:\SOAP AND REST WORKSPACE>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        REST-Project-1---Countries-soapui-project.xml
+        SOAP1-CountryInfoService-soapui-project.xml
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\SOAP AND REST WORKSPACE>git add .
+warning: in the working copy of 'REST-Project-1---Countries-soapui-project.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SOAP1-CountryInfoService-soapui-project.xml', LF will be replaced by CRLF the next time Git touches it
+
+D:\SOAP AND REST WORKSPACE>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   REST-Project-1---Countries-soapui-project.xml
+        new file:   SOAP1-CountryInfoService-soapui-project.xml
+
+
+D:\SOAP AND REST WORKSPACE>git commit -m "Adding SoapUi Projects"
+[master (root-commit) b477443] Adding SoapUi Projects
+ 2 files changed, 1496 insertions(+)
+ create mode 100644 REST-Project-1---Countries-soapui-project.xml
+ create mode 100644 SOAP1-CountryInfoService-soapui-project.xml
+
+D:\SOAP AND REST WORKSPACE>git push -u https://github.com/Ranjith-96/SoapUiProject.git
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://github.com/Ranjith-96/SoapUiProject.git master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+D:\SOAP AND REST WORKSPACE>git push --set-upstream https://github.com/Ranjith-96/SoapUiProject.git master
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 14.98 KiB | 3.75 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Ranjith-96/SoapUiProject.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'https://github.com/Ranjith-96/SoapUiProject.git/master'.
+
+D:\SOAP AND REST WORKSPACE>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   REST-Project-1---Countries-soapui-project.xml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        default-soapui-workspace.xml
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\SOAP AND REST WORKSPACE>git add REST-Project-1---Countries-soapui-project.xml
+warning: in the working copy of 'REST-Project-1---Countries-soapui-project.xml', LF will be replaced by CRLF the next time Git touches it
+
+D:\SOAP AND REST WORKSPACE>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   REST-Project-1---Countries-soapui-project.xml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        default-soapui-workspace.xml
+
+
+D:\SOAP AND REST WORKSPACE>git commit -m "Updated Project"
+[master ff9056f] Updated Project
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+D:\SOAP AND REST WORKSPACE>git push --set-upstream https://github.com/Ranjith-96/SoapUiProject.git master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 372 bytes | 372.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Ranjith-96/SoapUiProject.git
+   b477443..ff9056f  master -> master
+branch 'master' set up to track 'https://github.com/Ranjith-96/SoapUiProject.git/master'.
+
+D:\SOAP AND REST WORKSPACE>
