@@ -1,0 +1,167 @@
+************************************************* BASIC CMD COMMANDS ************************************************* 
+
+1.Create a folder in desktop:
+
+	=>  C:\WINDOWS\system32>cd C:\Users\Akshitha\Desktop ----------------------> change directory
+	=>  C:\Users\Akshitha\Desktop>md new ----------------------------------------------> make directory
+	=>  C:\Users\Akshitha\Desktop>ren new Folder -------------------------------------> rename
+	=>  C:\Users\Akshitha\Desktop>rd folder --------------------------------------------> remove directory
+	=>  C:\Users\Akshitha\Desktop>md folder\folder\java\main\test ---------------> create subfolders inside a folder
+
+2.Change drive and see directories:
+
+	=> C:\Users\Akshitha\Desktop>d: ----------------------------------------------------> Change to D drive
+	=> D:\>dir --------------------------------------------------------------------------------> See directories inside D drive
+
+3.System Information:
+
+	=> C:\Users\Akshitha>Systeminfo
+
+
+4.Volume information:
+
+	=> Displays a disk volume label and serial number
+	=> C:\Users\Akshitha>vol
+		Volume in drive C is Windows
+ 		Volume Serial Number is CE09-0150
+
+5.Windows Version:
+
+	=>C:\Users\Akshitha>ver
+	    Microsoft Windows [Version 10.0.19044.2006]
+
+6.date and time:
+
+	=> C:\Users\Akshitha>date
+	     The current date is: 14-09-2022
+	     Enter the new date: (dd-mm-yy)
+
+	=> C:\Users\Akshitha>date /t
+	     14-09-2022
+
+	=> C:\Users\Akshitha>time
+	     The current time is: 21:54:56.47
+	     Enter the new time:
+
+	=> C:\Users\Akshitha>time /t
+	     21:55
+
+7.Back navigation:
+
+	=>  C:\Users\Akshitha>cd..
+	      C:\Users>
+
+	=>  C:\Users\Akshitha>cd../..
+	       C:\>
+
+8.Make directory and create a file type:
+
+	=>  D:\>mkdir Programmer
+	      D:\>dir
+	      D:\>cd Programmer
+	      D:\Programmer>type nul > programmer.txt
+	      D:\Programmer>type nul > basics.json
+	      D:\Programmer>type nul > simple.html
+
+9.Some basic actions in a file:
+
+	=> D:\Programmer>type nul > programmer.txt ------------------------------------------------------> Create a text file with name programmer.
+	=> D:\Programmer>notepad programmer.txt --------------------------------------------------------> Open above text file in notpad and write something and save.
+	=> D:\Programmer>type nul > basics.txt --------------------------------------------------------------> Create another text file with name basics.
+	=> D:\Programmer>copy programmer.txt basics.txt -------------------------------------------------> Copy content from programmer.txt to basics.txt
+	=> Overwrite basics.txt? (Yes/No/All): y ----------------------------------------------------------------> Yes
+      	     1 file(s) copied.
+
+	=> D:\Programmer>notepad basics.txt -----------------------------------------------------------------> View basics.txt file in notepad
+	=> D:\Programmer>del basics.txt ------------------------------------------------------------------------> Delete basics.txt file
+	=> D:\Programmer>mkdir Powerprogrammer ---------------------------------------------------------> Make a directory with name Powerprogrammer.
+	=> D:\Programmer>type nul > programmer1.c ---------------------------------------------------------> Create .c file with name programmer1.c
+	=> D:\Programmer>move programmer1.c PowerProgrammer --------------------------------------> Move a file programmer1.c to a directory Powerprogrammer
+        1 file(s) moved.
+
+	=> D:\Programmer>cd Powerprogrammer -------------------------------------------------------------> Change directory to Powerprogrammer.
+	=> D:\Programmer\Powerprogrammer>ren programmer1.c programmer1.css ------------------> rename programmer1.c to programmer1.css
+	=> D:\Programmer\Powerprogrammer>dir ------------------------------------------------------------> View Directory.
+
+10.Clear Screen:
+
+	=>  D:\Programmer\Powerprogrammer>cls
+
+11.Delete Directory:
+
+	=> D:\>cd Programmer
+
+	=> D:\Programmer> del programmer.txt
+	=> D:\Programmer>del Powerprogrammer
+	=> D:\Programmer\Powerprogrammer\*, Are you sure (Y/N)? Y
+	=> D:\Programmer>del Powerprogrammer
+	=> D:\Programmer\Powerprogrammer\*, Are you sure (Y/N)? Y
+	=> D:\Programmer>rmdir Powerprogrammer
+	=> D:\Programmer>cd..
+	=> D:\>rmdir Programmer
+
+
+************************************************* NETWORKING CMD COMMANDS ************************************************* 
+IPCONFIG
+IPCONFIG/ALL
+NSLOOKUP
+PING
+TRACERT
+
+
+
+1. Color configuration:
+
+	=> color b
+	=> help color ----------------------------------------------------------------------------------> List out all the colors.
+
+2.IP Configuration:
+
+	=> ipconfig
+
+3.Mac Configuration:
+
+	=> ipconfig/all
+	
+4.Domain name Servers:
+
+	=> nslookup
+	=> ping ip adrress value
+	=> ping www.google.com
+
+5.Trace root command:
+
+	=> tracert  destination ipaddress
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
